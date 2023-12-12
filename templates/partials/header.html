@@ -1,0 +1,21 @@
+<nav style="background-color: green;" class="navbar navbar-expand-lg navbar-light bg-light p-0">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" width="100%" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link p-3" href="{{ url_for('home') }}">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-3" href="{{ url_for('orders') }}">Pedidos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link p-3" href="{{ url_for('myAccount') }}">Meu cadastro</a>
+            </li>
+        </ul>
+    </div>
+    <div class="nav-item nav-link p-3">
+        <a>Sair</a>
+    </div>
+</nav>
